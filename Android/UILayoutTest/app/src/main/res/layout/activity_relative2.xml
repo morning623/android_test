@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Button 3"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button53"
+        android:layout_toLeftOf="@id/button53"
+        android:text="Button 1"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button53"
+        android:layout_toRightOf="@id/button53"
+        android:text="Button 2"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button53"
+        android:layout_toLeftOf="@id/button53"
+        android:text="Button 4"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button 5"
+        android:textAllCaps="false"
+        android:layout_below="@id/button53"
+        android:layout_toRightOf="@id/button53" />
+
+</RelativeLayout>

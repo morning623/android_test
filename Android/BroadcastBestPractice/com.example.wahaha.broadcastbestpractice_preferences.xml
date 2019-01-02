@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="account">admin</string>
+    <string name="password">123456</string>
+    <boolean name="remember_password" value="true" />
+</map>

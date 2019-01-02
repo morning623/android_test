@@ -1,0 +1,96 @@
+Genymotion
+wangchen82  asb##1234
+
+migu
+13451915016 asb##1234
+
+我的南京 ww?230424
+
+www.github.com
+morning623 wwc230424
+
+morning623@tom.com
+wwcc623@tom.com  wwa230424
+
+CSDN
+morning623 w230424_csdn
+
+http://guolin.tech/api/weather/register  morning623@tom.com  asb##1234
+
+key store password   key password: asb##nk
+
+静态注册的广播接收器,在activity退出后，仍可处理广播消息？
+广播接收器onReceive(）内可以context.startActivity(context）
+
+嵌套类在宿主类生存期内有效。
+
+
+alt + Enter 自动import
+alt + Insert 自动生成set/get
+ctrl + 鼠标左键 找到定义
+
+
+关于Apache的安装：http://httpd.apache.org/download.cgi
+http://httpd.apache.org/docs/current/platform/windows.html#down
+需要下载“Visual Studio Redistributable Packages” 和“Apache 2.4.x OpenSSL 1.0.2 VC14”
+下载网址：https://www.apachehaus.com/cgi-bin/download.plx
+
+
+马云的镜像站,解决科学上网下载插件和SDK问题
+Could not download fastutil.jar (it.unimi.dsi:fastutil:7.2.0): No cached version available for offline
+
+把这段代码加入 build.gradle
+
+buildscript {
+repositories {
+maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+google()
+}
+}
+
+allprojects {
+repositories {
+maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+google()
+}
+}
+即可
+
+
+git 操作
+0.  git clone https://github.com/morning623/android_test.git
+1. git add .
+2. git commit -m "First commit."
+3. git push origin master
+
+git 遇到嵌套的repository仓库:
+$ git add .
+warning: adding embedded git repository: Android/CoolWeather
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> Android/CoolWeather
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached Android/CoolWeather
+hint:
+hint: See "git help submodule" for more information.
+
+wahaha@asb-PC MINGW64 /e/work/android_test (master)
+$ git rm --cached Android/CoolWeather
+error: the following file has staged content different from both the
+file and the HEAD:
+    Android/CoolWeather
+(use -f to force removal)
+
+wahaha@asb-PC MINGW64 /e/work/android_test (master)
+$ git rm -f --cached Android/CoolWeather
+rm 'Android/CoolWeather'
+
+
+
+
